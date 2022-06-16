@@ -9,9 +9,9 @@
   background: rgba(254, 253, 253, 0.95);
    box-shadow: 0 8px 32px 0 rgba(238, 241, 80, 0.37);
   backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  /* -webkit-backdrop-filter: blur(4px); */
   border: 1px solid rgba(123, 246, 36, 0.18);
-  position: fixed;
+  position: relative;
   z-index: 2;
   font-family:cursive ;
 }
@@ -47,3 +47,29 @@ li{
      text-decoration: none;
     text-transform: uppercase;
 }
+
+
+.btn{
+    margin-right: 133px;
+    padding: 12px;
+   
+}
+
+.btn-s{
+    height: 31px;
+    font-size: 23px; 
+    background: none;
+    border: none;
+    border-radius: 23px;
+
+
+}
+
+.btn-s a{
+    text-decoration: none;
+    color: rgb(140, 209, 51);
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+} 
