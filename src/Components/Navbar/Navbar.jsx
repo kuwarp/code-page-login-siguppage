@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { motion, AnimateSharedLayout } from "framer-motion";
-import link from "react-router-dom";
+import React from "react";
+import { motion } from "framer-motion";
+// import link from "react-router-dom";
 
 import images from "../../assets/wave.gif";
 import "./nav.css";
